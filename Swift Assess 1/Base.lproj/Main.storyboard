@@ -30,6 +30,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSo-aP-zw4">
                                 <state key="normal" title="Counting Button"/>
+                                <connections>
+                                    <action selector="countingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KeN-JE-I8F"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
