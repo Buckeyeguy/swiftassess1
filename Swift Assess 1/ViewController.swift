@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func countingButton(_ sender: AnyObject) {
         pressCount = pressCount+1
+        print(pressCount)
         
         if pressCount == 10 {
             self.view.backgroundColor=UIColor.gray
